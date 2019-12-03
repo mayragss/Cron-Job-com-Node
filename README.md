@@ -5,8 +5,8 @@
 ### Passos para rodar o server:
 
     1 - Instalar o [Node.js](https://nodejs.org/)
-    2 - $ npm i
-    3 - $ node index.js
+    2 - Instalar as dependências $ npm i
+    3 - Startar o servidor $ node index.js
 
 
 
