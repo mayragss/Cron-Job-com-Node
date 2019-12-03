@@ -6,7 +6,7 @@ app = express();
 
 // agendando as tasks para rodarem no servidor
 cron.schedule("* * * * *", function () {
-    console.log("Running Cron Job");
+    console.log("Rodando o Cron Job");
 
     let transporter = nodeMailer.createTransport({
         host: 'smtp.ethereal.email',
@@ -19,7 +19,7 @@ cron.schedule("* * * * *", function () {
     });
 
     const mailOptions = {
-        from: '"Mayra Gomes" <contacto@maygomes.com>', // emil de envio
+        from: '"Mayra Gomes" <contacto@maygomes.com>', // email de envio
         to: 'jane.doe@example.com', // lista de emails que irão receber
         subject: 'Olá!', // assunto
         text: 'Texto da Mensagem', // mensagem
@@ -27,10 +27,8 @@ cron.schedule("* * * * *", function () {
     };
 
     transporter.sendMail(mailOptions, function (error, info) {
+        if (err)console.log(err);
         console.log(info.messageId);
-        if (err) {
-            console.log(err);
-        }
     });
 });
 
