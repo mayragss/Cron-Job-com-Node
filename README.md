@@ -1,6 +1,14 @@
-* Serviço de Agendamento com Node *
+# Serviço de Agendamento com Node *
 
-#Passos para rodar o server:
+* Fazer o checkout na Develop **
 
-    1 - npm i
-    2 - node index.js
+###Passos para rodar o server:
+
+    1 - Instalar o [Node.js](https://nodejs.org/)
+    2 - $ npm i
+    3 - $ node index.js
+
+
+
+
+                    [https://maygomes.com]
