@@ -2,7 +2,7 @@
 
 * Fazer o checkout na Develop **
 
-###Passos para rodar o server:
+### Passos para rodar o server:
 
     1 - Instalar o [Node.js](https://nodejs.org/)
     2 - $ npm i
